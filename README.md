@@ -1,30 +1,26 @@
-# Docker PHP Project
-
+<h1 align="center">Docker PHP Project</h1> 
 This repository contains a Docker configuration for setting up a PHP development environment with MySQL and phpMyAdmin.
 
-## Prerequisites
-
+# Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-- Docker installed on your local machine.
-
-## Getting Started
-
+Docker installed on your local machine.
+#Getting Started
 To get started with this project, follow these steps:
 
-1. Clone this repository to your local machine:
-
-   ```bash
+Clone this repository to your local machine:
+bash
+   Copy code
    git clone https://github.com/your-username/docker-php-project.git
 Navigate into the project directory:
-bash
-Copy code
-cd docker-php-project
+   bash
+   Copy code
+   cd docker-php-project
 Build and start the Docker containers:
 bash
-Copy code
-docker-compose up -d
-Access your PHP application at http://localhost and phpMyAdmin at http://localhost:8080.
+   Copy code
+   docker-compose up -d
+Access your PHP application at <b>http://localhost</b> and phpMyAdmin at <b>http://localhost:8080</b>.
 Configuration
 PHP Container
 Port: 80
@@ -50,4 +46,3 @@ Contributions are welcome! Feel free to submit a pull request or open an issue i
 
 License
 This project is licensed under the MIT License.
-
